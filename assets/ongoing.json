@@ -1,0 +1,23 @@
+[
+    {
+        "ID": "014",
+        "Name": "ABC PORCHES",
+        "image": "assets/images/f3.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "ongoing"
+    },
+    {
+        "ID": "015",
+        "Name": "ABC ESTONIA",
+        "image": "assets/images/ongoing3.jpg",
+        "desg": "2 BHK, 3 BHK, 4BHK",
+        "type": "ongoing"
+    },
+    {
+        "ID": "016",
+        "Name": "ABC VILLA",
+        "image": "assets/images/villa1.jpg",
+        "desg": "2 BHK, 3 BHK Villas",
+        "type": "ongoing"
+    }
+]

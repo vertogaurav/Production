@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "002",
+        "Name": "Bald Eagle",
+        "image": "assets/images/person.png",
+        "desg": "Proud owner of ABC villa",
+        "testimony": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    },
+    {
+        "ID": "003",
+        "Name": "Cooper's Hawk",
+        "image": "assets/images/person.png",
+        "desg": "Happy customer of ABC Flats",
+        "testimony": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    }
+]

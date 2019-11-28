@@ -1,0 +1,51 @@
+[
+    {
+        "ID": "001",
+        "Name": "ABC DIAMOND HERITAGE",
+        "image": "assets/images/ongoing1.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "002",
+        "Name": "ABC GOLD HERITAGE",
+        "image": "assets/images/ongoing2.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "003",
+        "Name": "ABC EAST FORT",
+        "image": "assets/images/ongoing3.jpg",
+        "desg": "2 BHK, 3 BHK, 4BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "004",
+        "Name": "ABC PINE FORT",
+        "image": "assets/images/flat1.png",
+        "desg": "2 BHK, 3 BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "005",
+        "Name": "ABC OAK HERITAGE",
+        "image": "assets/images/flat2.jpg",
+        "desg": "2 BHK, 3 BHK, 4BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "006",
+        "Name": "ABC PEACH",
+        "image": "assets/images/ongoing1.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "completed"
+    },
+    {
+        "ID": "011",
+        "Name": "ABC ELITE",
+        "image": "assets/images/ongoing2.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "completed"
+    }
+]
