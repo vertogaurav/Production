@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div>
+    <div class="completed">
+        <div class="name"> Completed Projects</div>
+        <div class="flex-container">
+            <div class="card" *ngFor="let test of compProjects ">
+                <img src={{test.image}} alt="Avatar" style="width:100%;min-height: 300px;">
+                <div class="container">
+                    <p><b>{{test.Name}}</b></p>
+                    <p>{{test.desg}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="completed">
+        <div class="name"> Ongoing Projects</div>
+        <div class="flex-container">
+            <div class="card" *ngFor="let test of ongProjects ">
+                <img src={{test.image}} alt="Avatar" style="width:100%;min-height: 300px;">
+                <div class="container">
+                    <p><b>{{test.Name}}</b></p>
+                    <p>{{test.desg}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="completed">
+        <div class="name"> UpcomingProjects</div>
+        <div class="flex-container">
+            <div class="card" *ngFor="let test of upcProjects ">
+                <img src={{test.image}} alt="Avatar" style="width:100%;min-height: 300px;">
+                <div class="container">
+                    <p><b>{{test.Name}}</b></p>
+                    <p>{{test.desg}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

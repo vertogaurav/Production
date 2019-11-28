@@ -1,0 +1,49 @@
+<footer class=" w3-small w3-center" id="footer">
+    <div class="w3-row-padding row-padding">
+
+        <div class="w3-col s4 lefte">
+            <h3 style="padding: 9px 0px;font-weight:500">Enquiry</h3>
+            <p>Questions? Go ahead.</p>
+            <form (ngSubmit)="submitquery()">
+                <p><input class="inputclass" type="text" placeholder="Name" name="Name" [(ngModel)]="name" required></p>
+                <p><input class="inputclass" type="text" placeholder="Email" name="Email" [(ngModel)]="email" required>
+                </p>
+                <p><input class="inputclass" type="text" placeholder="Phone" name="Phone" [(ngModel)]="phone" required>
+                </p>
+                <p><textarea class="inputclass" style="height: 50px;" placeholder="Message" [(ngModel)]="name"
+                        name="Message" required></textarea></p>
+                <button type="submit" class="sendbtn w3-button">Send</button>
+            </form>
+        </div>
+
+
+
+        <div class="w3-col s4 w3-justify right">
+            <h3 style="padding: 9px 0px;font-weight:500">Head Office</h3>
+            <div><img src="assets/images/loc.png" width="25">
+                <span class="imgicon"> ABC Builders Pvt. Ltd. , Trivandrum</span>
+            </div>
+            <p><img src="assets/images/phone.jpg" width="25"> <span class="imgicon">+91 9100000000,
+                    +91 9100000001 </span></p>
+            <p>
+                <img src="assets/images/mail.png" width="25"><span class="imgicon"> enquiry@abc.com</span>
+            </p>
+            <p><img src="assets/images/whatsapp.svg" width="25"><span class="imgicon"> +91 9100000002 </span>
+            </p>
+            <br>
+            <a target="_blank" rel="noopener" href="https://facebook.com" title="facebook">
+                <img src="assets/images/facebook .svg" width="25">
+            </a>
+            <a target="_blank" rel="noopener" href="https://instagram.com" title="instagram">
+                <img src="assets/images/instagram.svg" width="25"></a>
+
+            <a target="_blank" rel="noopener" href="https://pinterest.com" title="pinterest">
+                <img src="assets/images/pin.svg" width="25"></a>
+            <a target="_blank" rel="noopener" href="https://twitter.com" title="twitter">
+                <img src="assets/images/twitter.svg" width="25"></a>
+            <a target="_blank" rel="noopener" href="https://linkedin.com" title="linkedin">
+                <img src="assets/images/linkedin.svg" width="25"></a>
+        </div>
+    </div><br>
+
+</footer>

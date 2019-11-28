@@ -1,0 +1,95 @@
+<app-header></app-header>
+<div class="bodycontainer">
+    <div class="tab">
+
+    </div>
+    <div class="slider">
+        <div class="abc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the
+            industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more
+            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <br>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a
+                type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div>
+                <div class="interior">INTERIORS</div>
+                <div class="coli">
+                    <img src='assets/images/interior1.jpg'>
+                </div>
+                <div class='coli'> <img src='assets/images/interior2.jpg'></div>
+            </div>
+
+            <div style="margin-top: 20px;color: black;font-weight: 500;">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a
+                    type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining
+                    essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                    Ipsum
+                    passages, and more
+                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="projects row">
+        <div class="upcoming col" (click)="projects()">
+            <p class="pjtheader">Upcoming projects</p>
+            <img src="assets/images/ongoing1.jpg">
+        </div>
+        <div class="ongoing col" (click)="projects()">
+            <p class="pjtheader">Ongoing projects</p>
+            <img src="assets/images/ongoing2.jpg">
+        </div>
+        <div class="completed col" (click)="projects()">
+            <p class="pjtheader">Completed projects</p>
+            <img src="assets/images/ongoing3.jpg">
+        </div>
+    </div>
+    <div class="testimony projects" style="background-color: #e3dbcf54;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,.10);
+">
+        <p class="heading">Customer Reviews</p>
+
+        <div class="row" *ngFor="let test of arrBirds">
+            <div class="column" style="width:10%">
+                <img src={{test.image}} width="100"><br>
+
+            </div>
+            <div class="column" style="">
+
+                <p style="font-family:cursive;">{{test.testimony}}</p>
+                <div style="float: right;">
+                    <p>--</p>
+                    <p style="font-style: italic;"> <span></span>{{test.Name}} ,<span>{{test.desg}}</span></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="foot">
+    <app-footer></app-footer>
+</div>

@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "012",
+        "Name": "ABC ALASKA",
+        "image": "assets/images/f1.jpg",
+        "desg": "2 BHK, 3 BHK, 4BHK",
+        "type": "future"
+    },
+    {
+        "ID": "013",
+        "Name": "ABC CORAL",
+        "image": "assets/images/f2.jpg",
+        "desg": "2 BHK, 3 BHK",
+        "type": "future"
+    }
+]
